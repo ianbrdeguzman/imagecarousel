@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Carousel</title>
+    <script src="https://kit.fontawesome.com/1a8bb7941b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <header>
+        <p id="about">about</p>
+        <p><a href="#" target="_blank">code</a></p>
+    </header>
+    <div class="container">
+        <div class="slides active">
+            <img src="./images/img-1.jpg" alt="image-1">
+        </div>
+        <div class="slides">
+            <img src="./images/img-2.jpg" alt="image-2">
+        </div>
+        <div class="slides">
+            <img src="./images/img-3.jpg" alt="image-3">
+        </div>
+        <div class="slides">
+            <img src="./images/img-4.jpg" alt="image-4">
+        </div>
+        <div class="slides">
+            <img src="./images/img-5.jpg" alt="image-5">
+        </div>
+        <div class="buttons">
+            <button class="prev"><i class="fas fa-arrow-left"></i></button>
+            <button class="next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+    <div class="modal-container">
+        <div class="modal-content">
+            <p id="close">X</p>
+            <p>A responsive image carousel that uses JavaScript to add and remove classes for each slide</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
